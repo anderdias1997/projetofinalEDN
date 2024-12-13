@@ -1,0 +1,211 @@
+.layout2 {
+    background-color:gold;
+    display: flex;
+    padding: 60px;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+   
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+
+}
+
+.video-container {
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.video-container h2 {
+    margin: 10px;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+}
+
+.quote-container {
+    display: inline-block;
+    text-align: left;
+}
+
+.quote {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.author {
+    font-size: 1.2em;
+    margin-top: 1px;
+    text-align: right;
+    font-style: italic;
+}
+
+.title h1 {
+    margin-bottom: 1px;
+    
+}
+
+.title h2 {
+    margin-top: 0;
+}
+
+/* Personalizando a cor dos icones   */
+
+.fas {
+    color: white;
+}
+
+ .fa-whatsapp {
+    color: green;
+}
+
+.fa-phone {
+    color: black;
+}
+
+.fa-instagram {
+    color: rgb(252, 84, 112);
+}
+
+.fa-tiktok {
+    color: black;
+}
+
+.nossos-contatos {
+    justify-items: center; 
+    
+}
+
+.nossos-contatos p {
+   margin: 20px;
+   font-size: 1.2rem;
+}
+.nossos-contatos ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+
+.nossos-contatos ul a {
+    text-decoration: none;
+    color: black;
+}
+
+/* posicionamento das redes socais   */
+
+.redes-sociais {
+    justify-items: center;
+    gap: 30px;
+}
+
+.redes-sociais p {
+    margin: 20px;
+    font-size: 1.2rem; 
+    color: black;
+}
+
+.redes-sociais ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    font-size: 1.5rem;
+    
+}
+
+.redes-sociais ul a {
+    text-decoration: none;
+    color: black;
+}
+
+.cardgroupofi {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 5px solid;
+    border: none;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardofi {
+    background-color: gold;
+    border: 2px solid;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    height: auto;
+    margin: 10px;
+    
+    
+}
+
+.conheceroficinas {
+    background-color: white;
+    color: gold;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-weight: 800;
+    text-shadow: 2px 2px 0px black;
+
+}
+
+.ofertanl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+.description2 {
+
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 1.5rem;
+    gap: 2rem;
+
+}
+
+.nav2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav2 a {
+    transition: transform 0.3s ease;
+}
+
+.nav2 a:hover {
+    transform: translateY(-5px);
+}
+
+.nav1 a {
+    transition: transform 0.3s ease;
+}
+
+.nav1 a:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+
+
